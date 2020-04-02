@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "description": "Gerenciador de aulas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "console.log(\"Hello world\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeTS/Node.git"
+  },
+  "keywords": [
+    "GuilhermeTS"
+  ],
+  "author": "Guilherme Bomfim",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/GuilhermeTS/Node/issues"
+  },
+  "homepage": "https://github.com/GuilhermeTS/Node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1"
+  }
+}
